@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        dialog {
+            background-color: aqua;
+            colour: black;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 20px;
+            
+        }
+    </style>
+    <center>
+        <h3>This is detail Tag</h3>
+        <p>this tag is used to specify the addtional deatils on the web page that the user can view or hide on demand</p>
+    </center>
+    <hr>
+    <center>
+        <h3>This is summary tag</h3>
+        <p>the <b>HTML SUMMARY</b> tag is used with <b>DETAILS</b> tag.It is used as a summary ,caption or legend for the content of a details element</p>
+    </center>
+    <hr>
+    <details>
+        <summary>HTML</summary>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo eos maiores ipsa deserunt quae incidunt debitis cum quasi culpa distinctio, delectus quibusdam, porro eaque laborum rem? Iure asperiores libero culpa!</p>
+    </details>
+    <details>
+        <summary>css</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, deserunt repudiandae a magnam totam, facilis corrupti excepturi sint ea labore expedita adipisci esse neque iusto doloribus in consectetur rem aperiam?</p>
+    </details>
+    <details>
+        <summary>JS</summary>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, deserunt repudiandae a magnam totam, facilis corrupti excepturi sint ea labore expedita adipisci esse neque iusto doloribus in consectetur rem aperiam?</p>
+    </details>
+    <center>
+        <h3>TIME TAG...!</h3>
+        <p><b>html tag</b> time tag is used to define date and time it displays time value</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia illo illum praesentium omnis ea, explicabo impedit atque tenetur aliquid. Consectetur unde officia dignissimos ad voluptates ipsa repellat blanditiis omnis iste!1:00</p>
+
+    <hr>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magnam officiis voluptatibus beatae cum corrupti minus fugiat excepturi, aliquid aliquam suscipit quas vitae necessitatibus quisquam minima cupiditate aut qui incidunt.<time>1:00</time></p>
+    </center>
+    <hr>
+
+    <dialog id="dd">
+        <h1>FULL STACK</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet sint beatae, praesentium sunt, aperiam repudiandae, natus hic amet in maxime quis quam omnis modi nulla unde? Incidunt, doloremque? Vero, quisquam?</p>
+    </dialog>
+    <button id="btn1">open dialog</button>
+    <button id="btn2">close dialog</button>
+    <script>
+        document.getElementById("btn1").onclick = function(){
+            document.getElementById("dd").show();
+        };
+    </script>
+        <script>
+            document.getElementById("btn2").onclick = function(){
+                document.getElementById("dd").close();
+            };
+        </script>
+</body>
+</html>
